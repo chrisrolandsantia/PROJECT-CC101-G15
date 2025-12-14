@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>GameZone</title>
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<!-- header and navbar-->
+<header class="navbar">
+    <div class="left">
+        <a href="index.html" class="logo-link">
+            <img src="images/homepage/controller.png" class="logo-icon" alt="GameZone Logo">
+            <h1 class="name">GameZone</h1>
+        </a>
+    </div>
+
+    <div class="right">
+        <nav class="about">
+            <a href="about.html">About</a>
+        </nav>
+
+        <img src="images/homepage/rimuruprofile.webp"
+             class="profile"
+             id="profileBtn"
+             alt="Profile">
+
+        <input type="text"
+               id="searchBar"
+               class="searchbar"
+               placeholder="Search a game...">
+    </div>
+</header>
+
+<!-- main content -->
+<main>
+
+    <!--homepage -->
+    <section class="homepage-intro">
+        <img src="images/homepage/stevehome.jpg"
+             class="homepage-bg"
+             alt="Homepage Background">
+
+        <div class="homepage-content">
+            <p class="welcome-text">Welcome to</p>
+            <h1 class="homepage-title">GAMEZONE LIST</h1>
+            <p class="homepage-subtitle">
+                Track, browse, and discover your games all in one place.
+            </p>
+        </div>
+    </section>
+
+    <!-- games section-->
+    <section class="popular-games">
+        <br><br>
+        <h2 class="popular-header">⭐ Most Popular Games</h2>
+
+        <div class="game-list">
+            <ol>
+
+                <li>
+                    <a href="gtav.html" class="game-link">
+                        <div class="game-card">
+                            <span class="rank">1</span>
+                            <img class="cover" src="images/gtav/gtavmain.jpg" alt="GTA V Cover">
+                            <span class="game-title">Grand Theft Auto V</span>
+                        </div>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="red redemption 2.html" class="game-link">
+                        <div class="game-card">
+                            <span class="rank">2</span>
+                            <img class="cover" src="images/reddead/redmain.jpg" alt="Red Dead Redemption 2 Cover">
+                            <span class="game-title">Red Dead Redemption 2</span>
+                        </div>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="minecraft.html" class="game-link">
+                        <div class="game-card">
+                            <span class="rank">3</span>
+                            <img class="cover" src="images/minecraft/minmain.png" alt="Minecraft Cover">
+                            <span class="game-title">Minecraft</span>
+                        </div>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="Valorant.html" class="game-link">
+                        <div class="game-card">
+                            <span class="rank">4</span>
+                            <img class="cover" src="images/valorant/valmain.jpg" alt="Valorant Cover">
+                            <span class="game-title">Valorant</span>
+                        </div>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="ResidentEvil.html" class="game-link">
+                        <div class="game-card">
+                            <span class="rank">5</span>
+                            <img class="cover" src="images/resevil/resmain.jpg" alt="Resident Evil 2 Cover">
+                            <span class="game-title">Resident Evil 2</span>
+                        </div>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="Terraria.html" class="game-link">
+                        <div class="game-card">
+                            <span class="rank">6</span>
+                            <img class="cover" src="images/terraria/termain.jpg" alt="Terraria Cover">
+                            <span class="game-title">Terraria</span>
+                        </div>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="genshinimpact.html" class="game-link">
+                        <div class="game-card">
+                            <span class="rank">7</span>
+                            <img class="cover" src="images/genimpact/genshinmain.jpg" alt="Genshin Impact Cover">
+                            <span class="game-title">Genshin Impact</span>
+                        </div>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="eldenring.html" class="game-link">
+                        <div class="game-card">
+                            <span class="rank">8</span>
+                            <img class="cover" src="images/elderring/eldenmain.jpg" alt="Elden Ring Cover">
+                            <span class="game-title">Elden Ring</span>
+                        </div>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="godofwar.html" class="game-link">
+                        <div class="game-card">
+                            <span class="rank">9</span>
+                            <img class="cover" src="images/godwar/godprof.jpg" alt="God of War Cover">
+                            <span class="game-title">God of War</span>
+                        </div>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="cyberpunk.html" class="game-link">
+                        <div class="game-card">
+                            <span class="rank">10</span>
+                            <img class="cover" src="images/cyber/cyberprof.jpg" alt="Cyberpunk 2077 Cover">
+                            <span class="game-title">Cyberpunk 2077</span>
+                        </div>
+                    </a>
+                </li>
+
+            </ol>
+        </div>
+    </section>
+
+</main>
+
+<!-- footer -->
+<footer>
+    <a href="about.html">About</a>
+    <a href="terms.html">Terms of Use</a>
+    <a href="privacy.html">Privacy Policy</a>
+    <a href="cookies.html">Cookie Policy</a>
+</footer>
+
+<!-- login popup -->
+<div id="loginPopup">
+    <div class="login-box">
+        <h2 class="login-title">Welcome Back</h2>
+        <p class="login-sub">Login to continue</p>
+
+        <input type="text" id="loginEmail" placeholder="Email">
+        <input type="password" id="loginPassword" placeholder="Password">
+
+        <button type="button" class="login-btn">Login</button>
+
+        <p id="loginError">Invalid email or password</p>
+
+        <div class="divider"><span>OR</span></div>
+
+        <button class="google-btn social-btn">
+         <img src="images/homepage/google.png" alt="Google">
+         Continue with Google
+        </button>
+        <button class="facebook-btn social-btn">
+        <img src="images/homepage/facebook.png" alt="Facebook">
+        Continue with Facebook
+        </button>
+        <p class="signup">
+            Don’t have an account?
+            <a href="#">Sign up</a>
+        </p>
+    </div>
+</div>
+
+<!-- profile pop up -->
+<div id="profilePopup">
+    <div class="profile-box">
+        <span id="closeProfile">✖</span>
+
+        <label for="avatarInput" class="avatar-wrapper">
+            <img id="profilePreview" src="images/homepage/rimuruprofile.webp" alt="Avatar">
+            <span class="avatar-edit">Change</span>
+        </label>
+
+        <p id="profileName" class="profile-username">Guest</p>
+
+        <input type="text" id="nameInput" placeholder="Change name">
+        <input type="file" id="avatarInput" accept="image/*" hidden>
+
+        <button id="saveProfile" class="save-btn">Save</button>
+        <button id="logoutBtn" class="logout-btn">Logout</button>
+    </div>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
